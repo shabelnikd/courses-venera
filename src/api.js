@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://venera.diplomcomtehno.online/',
+  baseURL: 'https://venera.diplomcomtehno.online/api/',
 });
 
 api.interceptors.request.use((config) => {
